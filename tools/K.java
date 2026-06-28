@@ -2,14 +2,15 @@
 
 package tools;
 
-public class A1 
+@SuppressWarnings("unused")
+public class K 
 {
     int standard=11;
     public int  age=17;
     private String name = "nik";
     protected int subject=6;
 
-    public A1() // constructor
+    public K() // constructor
     {
         System.out.println("object created");
 
@@ -21,4 +22,5 @@ public class A1
 }
 
     
+
 

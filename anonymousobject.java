@@ -1,6 +1,6 @@
 
 
-import tools.A1;
+import tools.K;
 
 
 
@@ -8,9 +8,9 @@ public class anonymousobject
 {
     public static void main(String args []) 
     {
-        new A1(); // anonymous object created (it does not have any reference{name})
-        new A1().show(); // new object created
-        new A1().show(); // again new object created   
+        new K(); // anonymous object created (it does not have any reference{name})
+        new K().show(); // new object created
+        new K().show(); // again new object created   
     }  
 }
 

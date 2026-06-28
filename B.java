@@ -18,6 +18,11 @@ public class B extends A // SUB CLASS
         super();  // PRESENT BY DEFFAULT ; calls the constructor of the super class
         System.out.println("in B int"); 
     }
+
+    public void show()
+    {
+        System.out.println("in B show");
+    } 
 }  
     
 

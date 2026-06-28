@@ -1,4 +1,4 @@
-import tools.A1;
+import tools.K;
 
 public class accessModifiers 
 {
@@ -6,24 +6,24 @@ public class accessModifiers
     {
         System.out.println();
         System.out.println("DUE TO CONSTRUCTOR");
-        A1 a1obj=new A1();
+        K kobj=new K();
         System.out.println("DUE TO CONSTRUCTOR");
         System.out.println();
 
 
         // DEFAULT
-        // System.out.println(a1obj.standard); can't use default access modifier in different package 
+        // System.out.println(kobj.standard); can't use default access modifier in different package 
         System.out.println("DEFAULT ( ACCESS MODIFIER ) DENIED");
 
         //PUBLIC
-        System.out.println(a1obj.age + "  PUBLIC "); // public access modifier can be accessed anywhere
+        System.out.println(kobj.age + "  PUBLIC "); // public access modifier can be accessed anywhere
 
         // PRIVATE
-        // System.out.println(a1obj.name); can't use private access modifier in any different class
+        // System.out.println(kobj.name); can't use private access modifier in any different class
         System.out.println("PRIVATE ( ACCESS MODIFIER ) DENIED");
 
         // PROTECTED
-        // System.out.println(a1obj.sub); can't use protected access modifier in different package non-subclass
+        // System.out.println(kobj.sub); can't use protected access modifier in different package non-subclass
         System.out.println("PROTECTED ( ACCESS MODIFIER ) DENIED");
 
 
