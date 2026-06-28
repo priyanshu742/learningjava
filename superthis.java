@@ -1,4 +1,6 @@
-
+import tools.A;
+import tools.B;
+import tools.C;
 
 class D extends A // SUB CLASS
 {

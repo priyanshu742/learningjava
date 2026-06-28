@@ -1,3 +1,4 @@
+import tools.B;
 import tools.K;
 
 public class accessModifiers 
@@ -30,22 +31,22 @@ public class accessModifiers
 
         System.out.println();
         System.out.println("DUE TO SUPER KEYWORD IN  B CONSTRUCTOR");
-        B bobj=new B();
+        L lobj=new L();
         System.out.println("DUE TO SUPER KEYWORD IN B CONSTRUCTOR");
         System.out.println();
 
         // DEFAULT
-        System.out.println(bobj.color + "  DEFAULT");//  default access modifier can be used in same package 
+        System.out.println(lobj.color + "  DEFAULT");//  default access modifier can be used in same package 
 
         //PUBLIC
-        System.out.println(bobj.size + "  PUBLIC"); // public access modifier can be accessed anywhere
+        System.out.println(lobj.size + "  PUBLIC"); // public access modifier can be accessed anywhere
 
         // PRIVATE
         // System.out.println(bobj.model);can't use private access modifier in any different class
         System.out.println("PRIVATE ( ACCESS MODIFIER ) DENIED");
         
         // PROTECTED
-        System.out.println(bobj.price +  "  PROTECTED"); // protected access modifier can be used in same package     
+        System.out.println(lobj.price +  "  PROTECTED"); // protected access modifier can be used in same package     
     }  
 }
 

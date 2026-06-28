@@ -1,3 +1,4 @@
+package tools;
 
 public class C extends A // SUB CLASS
 {

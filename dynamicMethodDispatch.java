@@ -1,3 +1,7 @@
+import tools.A;
+import tools.B;
+import tools.C;
+
 public class dynamicMethodDispatch 
 {
     public static void main(String[] args)

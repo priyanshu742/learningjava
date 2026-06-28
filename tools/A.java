@@ -1,3 +1,4 @@
+package tools;
 public class A 
 {
     public A() // SUPER CLASS
