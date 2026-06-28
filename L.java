@@ -1,3 +1,6 @@
+
+@SuppressWarnings("unused")
+
 public class L 
 {
     String color="Blue";
