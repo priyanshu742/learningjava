@@ -1,6 +1,5 @@
 
 
-import tools.calc;
 import tools.advcalc;
 
 

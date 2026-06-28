@@ -1,3 +1,5 @@
+
+
 class A extends Object   // PRESENT BY DEFFAULT
 {
     public A() // SUPER CLASS
@@ -72,6 +74,9 @@ class E extends A // SUB CLASS
         System.out.println("in E int");  
     }    
 }
+
+@SuppressWarnings("unused")
+
 
 public class superthis 
 {

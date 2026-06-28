@@ -1,10 +1,8 @@
- 
- class student  // for array of objects
-        {
-            int rollno;
-            String name;
-            int marks;
-        }
+
+
+import tools.student;
+
+
 
 public class fullarray
 {

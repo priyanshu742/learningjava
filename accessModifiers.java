@@ -1,0 +1,75 @@
+import tools.A1;
+
+public class accessModifiers 
+{
+    public static void main(String args[]) 
+    {
+        System.out.println();
+        System.out.println("DUE TO CONSTRUCTOR");
+        A1 a1obj=new A1();
+        System.out.println("DUE TO CONSTRUCTOR");
+        System.out.println();
+
+
+        // DEFAULT
+        // System.out.println(a1obj.standard); can't use default access modifier in different package 
+        System.out.println("DEFAULT ( ACCESS MODIFIER ) DENIED");
+
+        //PUBLIC
+        System.out.println(a1obj.age + "  PUBLIC "); // public access modifier can be accessed anywhere
+
+        // PRIVATE
+        // System.out.println(a1obj.name); can't use private access modifier in any different class
+        System.out.println("PRIVATE ( ACCESS MODIFIER ) DENIED");
+
+        // PROTECTED
+        // System.out.println(a1obj.sub); can't use protected access modifier in different package non-subclass
+        System.out.println("PROTECTED ( ACCESS MODIFIER ) DENIED");
+
+
+
+        System.out.println();
+        System.out.println("DUE TO SUPER KEYWORD IN  B CONSTRUCTOR");
+        B bobj=new B();
+        System.out.println("DUE TO SUPER KEYWORD IN B CONSTRUCTOR");
+        System.out.println();
+
+        // DEFAULT
+        System.out.println(bobj.color + "  DEFAULT");//  default access modifier can be used in same package 
+
+        //PUBLIC
+        System.out.println(bobj.size + "  PUBLIC"); // public access modifier can be accessed anywhere
+
+        // PRIVATE
+        // System.out.println(bobj.model);can't use private access modifier in any different class
+        System.out.println("PRIVATE ( ACCESS MODIFIER ) DENIED");
+        
+        // PROTECTED
+        System.out.println(bobj.price +  "  PROTECTED"); // protected access modifier can be used in same package     
+    }  
+}
+
+/* Output
+
+DUE TO CONSTRUCTOR
+object created
+DUE TO CONSTRUCTOR
+
+DEFAULT ( ACCESS MODIFIER ) DENIED
+17  PUBLIC 
+PRIVATE ( ACCESS MODIFIER ) DENIED
+PROTECTED ( ACCESS MODIFIER ) DENIED
+
+DUE TO SUPER KEYWORD IN  B CONSTRUCTOR
+in A
+in B
+DUE TO SUPER KEYWORD IN B CONSTRUCTOR
+
+Blue  DEFAULT
+35  PUBLIC
+PRIVATE ( ACCESS MODIFIER ) DENIED
+1000  PROTECTED
+
+[Done] exited with code=0 in 0.236 seconds
+
+ */

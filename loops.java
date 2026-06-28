@@ -1,10 +1,5 @@
 
-class student1  // for array of objects
-        {
-            int rollno;
-            String name;
-            int marks;
-        }
+import tools.student;
 
 
 public class loops
@@ -131,28 +126,28 @@ public class loops
 
         System.out.println();
 
-        student1 s1=new student1();
+        student s1=new student();
         s1.rollno=22;
         s1.name="jonas";
         s1.marks=87;
 
-        student1 s2=new student1();
+        student s2=new student();
         s2.rollno=23;
         s2.name="martha";
         s2.marks=22;
 
-        student1 s3=new student1();
+        student s3=new student();
         s3.rollno=22;
         s3.name="mikkel";
         s3.marks=90;
 
-        student1 stu[]=new student1[3];
+        student stu[]=new student[3];
         stu[0]=s1;
         stu[1]=s2;
         stu[2]=s3;
 
         System.out.println("name" + " : " + "roll no" + " : " + "marks");
-        for(student1 stud: stu)
+        for(student stud: stu)
         {
             System.out.println(stud.name + " : " + stud.rollno + " : " + stud.marks); // printing array of objects using enhanced for loop
         }

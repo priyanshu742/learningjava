@@ -1,3 +1,7 @@
+
+@SuppressWarnings("unused")
+
+
 public class conditionalstatements3
 {
     public static void main(String arg[])
