@@ -1,4 +1,4 @@
-
+package tools;
 
 // JAVA DOES NOT SUPPORT MULTIPLE INHERITANCE
 
@@ -17,4 +17,10 @@ public class calc
     {
         return n1-n2;
     }
+
+    public void config()
+    {
+        System.out.println(" in A config");
+    }
+
 }

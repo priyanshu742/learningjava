@@ -1,6 +1,9 @@
 
 
 // JAVA DOES NOT SUPPORT MULTIPLE INHERITANCE
+import tools.calc;
+import tools.advcalc;
+import tools.scicalc;
 
 public class fullinheritance 
 {

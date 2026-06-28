@@ -1,16 +1,6 @@
-class A
-{
-    public A() // constructor
-    {
-        System.out.println("object created");
 
-    }
-    public void show()
-    {
-        System.out.println("in a method");
-    }
-}
 
+import tools.A1;
 
 
 
@@ -18,9 +8,9 @@ public class anonymousobject
 {
     public static void main(String args []) 
     {
-        new A(); // anonymous object created (it does not have any reference{name})
-        new A().show(); // new object created
-        new A().show(); // again new object created   
+        new A1(); // anonymous object created (it does not have any reference{name})
+        new A1().show(); // new object created
+        new A1().show(); // again new object created   
     }  
 }
 

@@ -1,3 +1,4 @@
+package tools;
 
 
 
@@ -16,6 +17,11 @@ public class advcalc extends calc  // single level inheritance
      public int div(int n1,int n2)
     {
         return n1/n2;
+    }
+
+    public int add(int n1,int n2) // method overriding
+    {
+        return n1+n2+2;
     }
 
 }
