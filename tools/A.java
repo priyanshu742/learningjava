@@ -1,5 +1,6 @@
 package tools;
-public class A 
+
+public class A extends Object
 {
     public A() // SUPER CLASS
     {
