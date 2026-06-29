@@ -18,7 +18,13 @@ public class B extends A // SUB CLASS
     public void show()
     {
         System.out.println("in B show");
-    } 
+    }
+
+    public void show2()
+    {
+        System.out.println("in B show2");
+    }
+    
 }  
     
 
