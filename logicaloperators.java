@@ -1,4 +1,4 @@
-class logical
+public class logicaloperators
 {
     public static void main(String[]args)
     {
@@ -33,8 +33,6 @@ class logical
 
         boolean result8= a<b && c<d;
         System.out.println(!result8);
-
-
     }
 }
 
@@ -52,3 +50,17 @@ In result6, since a>b is false, so the second condition c<d is evaluated, and th
 
 
   This can improve performance by avoiding unnecessary evaluations. */
+
+  /*ouput
+  
+  true
+true
+false
+true
+false
+true
+true
+false
+false
+
+*/

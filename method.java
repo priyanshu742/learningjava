@@ -22,5 +22,11 @@ public class method
         String tell=comp.cookmaggi(30);
         System.out.println(tell);
     }     
-
 }
+
+/*output
+
+Music playing
+low cost
+
+*/

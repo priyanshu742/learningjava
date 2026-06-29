@@ -5,3 +5,9 @@ class Hello
         System.out.println("hello world");
     }   
 }    
+
+/* output
+
+hello world
+
+*/

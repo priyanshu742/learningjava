@@ -10,34 +10,23 @@ public class conditionalstatements3
         if(a>10)
             System.out.println("hit"); // only if ; no curly braces needed for single statement
 
-
-
         int b=20;
         if(true)
             System.out.println("potato"); // only if 
-
-
 
         int c=20;   
         if(false)
             System.out.println("dark"); // only if 
 
-
-
-
         int d=18;
         if(d>10 && d<20)
             System.out.println("apple"); // only if
-
-
 
         int e=8;
         if(e>10)
             System.out.println("maggi");
         else
             System.out.println("miss"); // if else without using curly braces; not needed for single statement
-
-
 
         int f=73;    
         if(f>50)
@@ -51,7 +40,6 @@ public class conditionalstatements3
                 System.out.println("it"); // if else  using curly braces for more than one statement;
             }
 
-
         int g=10;
         int h=20;
         if(g>h)
@@ -64,7 +52,6 @@ public class conditionalstatements3
             System.out.println(h);
             System.out.println("is greater");
         }
-
 
         int i=10;
         int j=72;
@@ -83,3 +70,21 @@ public class conditionalstatements3
         }
     }
 }
+
+/* output
+
+
+[Running] cd "/Users/priyanshusingh/javacourse/" && javac conditionalstatements3.java && java conditionalstatements3
+hit
+potato
+apple
+miss
+start
+now
+20
+is greater
+72 is larger than i and k
+
+[Done] exited with code=0 in 0.238 seconds
+
+*/

@@ -12,3 +12,14 @@ class add
         System.out.println(num1+num);
     }
 }
+
+/* ouput
+
+[Running] cd "/Users/priyanshusingh/javacourse/" && javac add.java && java add
+8
+14
+15
+3
+8
+
+*/

@@ -33,7 +33,6 @@ public class switchstatement
                 System.out.println("Enter a valid number");    
         }
 
-
         //new switch statement without break statement
 
         //use either all the new symbols or colon in a single switch statement
@@ -50,7 +49,6 @@ public class switchstatement
 
             default -> System.out.println("no comments");
         } 
-
 
         // new switch statement without break statement
 
@@ -105,6 +103,15 @@ public class switchstatement
             default :  yield "no comments";
         };
         System.out.println(ans);
-
     }
 }
+
+/*output
+
+Thursday
+I Hate it
+I Hate it
+no comments
+no comments
+
+*/

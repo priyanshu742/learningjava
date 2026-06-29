@@ -1,4 +1,4 @@
-class arithmetic
+public class arithmeticoperators
 {
     public static void main(String a[])
     {
@@ -39,8 +39,6 @@ class arithmetic
         f--; //f=f-1;post-decrement operator; decrementing
         System.out.println(f);
 
-
-
         int g=76;
         ++g; //g=g+1;pre-increment operator; incrementing
         System.out.println(g);
@@ -65,6 +63,32 @@ class arithmetic
         int l=78;
         int ans4=--l; //pre-decrement operator;decrementing;   ans4=77;   l=77; decrementing the value of l first and then fetching it
         System.out.println(ans4);
-
     }
 }
+
+/* ouput
+
+
+[Running] cd "/Users/priyanshusingh/javacourse/" && javac arithmeticoperators.java && java arithmeticoperators
+30
+-10
+200
+0
+10
+20
+60
+56
+224
+56
+213
+345
+77
+97
+92
+46
+35
+77
+
+[Done] exited with code=0 in 0.227 seconds
+
+*/

@@ -52,3 +52,14 @@ public class finalkeyword
         f.basic();   
     } 
 }
+ 
+/*output
+
+[Running] cd "/Users/priyanshusingh/javacourse/" && javac finalkeyword.java && java finalkeyword
+68
+by priyanshu
+performed integration of 1
+All the basic formula
+
+
+*/

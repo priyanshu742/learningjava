@@ -1,12 +1,10 @@
-class relational
+public class relationaloperators
 {
     public static void main(String a[])
     {
         int x=10,b=20;
         boolean result=x<b;
         System.out.println(result);
-
-
 
         boolean result1=x>b;
         System.out.println(result1);
@@ -40,8 +38,22 @@ class relational
         boolean result8=g >= h;
         System.out.println(result8);
         boolean result9=g <= h;
-        System.out.println(result9);
-
-        
+        System.out.println(result9); 
     }
 }
+
+/*output
+
+[Running] cd "/Users/priyanshusingh/javacourse/" && javac relationaloperators.java && java relationaloperators
+true
+false
+false
+true
+true
+true
+false
+true
+false
+true
+
+*/

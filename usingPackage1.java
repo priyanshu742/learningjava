@@ -20,7 +20,13 @@ public class usingPackage1
 
         int r2=cal2.add(9,6);
         System.out.println(r2);
-
     }
-
 }
+
+/*ouput
+
+hey
+17
+17
+
+*/

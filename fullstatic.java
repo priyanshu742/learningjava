@@ -77,3 +77,16 @@ public class fullstatic
         Class.forName("force"); // used to forcefully load the class even if the object is not created from that  class
     }   
 }
+
+/* output
+
+[Running] cd "/Users/priyanshusingh/javacourse/" && javac fullstatic.java && java fullstatic
+I AM ONLY CALLED ONCE AND ALWAYS BEFORE CONSTRUCTOR BECAUSE AS SOON AS CLASS IS CREATED.... THE CLASS IS LOADED AND I M CALLED AT THAT TIME ONCE
+1 object created
+2 object created
+apple : 5000 : smartphone
+banana : 6000 : smartphone
+apple : 5000 : smartphone
+I AM FORCEFULLY CALLED BY THAT METHOD EVEN THOUGH MY CLASS IS NOT USED IN CREATING ANY OBJECT
+
+*/

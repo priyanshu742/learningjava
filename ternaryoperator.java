@@ -1,4 +1,4 @@
-class ternary
+public class ternaryoperator
 {
     public static void main(String[]args)
     {
@@ -18,12 +18,15 @@ class ternary
 
         */
 
-
         // using ternary operator to write above code in single line 
 
         result= n%2==0 ?  4:  5;    //  condition? value if true : value if false 
         System.out.println(result);
-
     }
-    
 }
+
+/*output
+
+5
+
+*/

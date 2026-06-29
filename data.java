@@ -24,5 +24,20 @@ class data
         }
 }        
 
+/* output
+
+[Running] cd "/Users/priyanshusingh/javacourse/" && javac data.java && java data
+3
+127
+5678
+888
+98.8
+987.654321
+k
+true
+
+[Done] exited with code=0 in 0.221 seconds
+
+*/
 
 

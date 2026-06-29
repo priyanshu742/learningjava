@@ -22,3 +22,9 @@ public class classobjects
         System.out.println(result);
     }    
 }
+
+/*output
+
+12
+
+*/

@@ -1,4 +1,4 @@
-class literals
+public class testingliterals
 {
     public static void main(String a[])
     {
@@ -15,6 +15,16 @@ class literals
         char c='A';
         c++;
         System.out.println(c);
-    }
-    
+    }  
 }
+
+/*output
+
+5
+26
+1000000000
+89.0
+12000.0
+B
+
+*/

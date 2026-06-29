@@ -22,3 +22,13 @@ class typeconversion
         System.out.println(result);
     }
 }
+
+/*ouput
+
+10
+100
+2
+3
+200
+
+*/
