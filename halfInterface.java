@@ -1,4 +1,10 @@
 
+// class --- class --> extends
+// class --- interface --> implements
+// interface -- interface --> extends
+
+
+
 // METHODS ARE ALWAYS PUBLIC AND ABSTRACT IN INTERFACE
 
 interface First
@@ -10,7 +16,17 @@ interface First
     void config();
 }
 
-class Second implements First // implements for interface
+interface ten
+{
+    void run();
+}
+
+interface twenty extends ten // for example
+{
+
+}
+
+class Second implements First,ten // implements for interface
 {
     // necessary to create both abstract methods here
     public void show() 
@@ -22,9 +38,14 @@ class Second implements First // implements for interface
     {
         System.out.println("in config");
     }
+
+    public void run() 
+    {
+        System.out.println("running ");
+    }
 }
 
-public class whatisInterface 
+public class halfInterface 
 {
     public static void main(String[] args) 
     {
@@ -32,15 +53,25 @@ public class whatisInterface
         obj= new Second();
         obj.config();
         obj.show();
+        // obj.run(); can't use this because First don't know about run
 
+        ten obj1=new Second();
+        obj1.run();
+        // obj1.config(); obj.run(); can't use this because ten don't know about config
+        // obj1.show(); can't use this because ten don't know about show
+
+    
         System.out.println(First.city);   
     } 
 }
+
+
 /* output
 
 
 in config
 in show
+running
 Mumbai
 
 
