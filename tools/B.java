@@ -15,6 +15,7 @@ public class B extends A // SUB CLASS
         System.out.println("in B int"); 
     }
 
+    @Override // annotations 
     public void show()
     {
         System.out.println("in B show");
