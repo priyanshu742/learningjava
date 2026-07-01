@@ -45,3 +45,20 @@ public class runnableThread
         t2.start();
     }     
 }
+
+/* output
+
+hi 1
+ hello 1
+ hi 2
+ hello 2
+ hi 3
+ hello 3
+ hi 4
+ hello 4
+ hello 5
+ hi 5
+
+[Done] exited with code=0 in 0.302 seconds
+
+*/
